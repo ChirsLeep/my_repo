@@ -11,8 +11,8 @@ on:
 
 jobs:
   choice_label:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo"${{inputs.log-level}}""
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo"${{inputs.log-level}}""
   
 
