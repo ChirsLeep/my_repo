@@ -5,9 +5,9 @@ on:
     log-level:
     type: choice
     options:
-    - info
-    - warn
-    - error
+      - info
+      - warn
+      - error
 
 jobs:
   choice_label:
