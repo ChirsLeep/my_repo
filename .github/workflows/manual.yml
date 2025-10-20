@@ -1,5 +1,5 @@
 name: Manual
-on :
+on:
   workflow_dispatch:
     inputs:
       greeting:
@@ -7,9 +7,8 @@ on :
         default: Hello
         required: true
         description: A cheerful word
-
-jods:
+jobs:
   run
     runs-on: ubuntu-latest
     steps:
-     - run:echo"${{ inputs.greeting }}"  
+     - run: echo"${{ inputs.greeting }}"  
