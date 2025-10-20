@@ -3,11 +3,11 @@ on:
  workflow_dispatch:
   inputs:
     log-level:
-    type: choice
-    options:
-      - info
-      - warn
-      - error
+      type: choice
+      options:
+        - info
+        - warn
+        - error
 
 jobs:
   choice_label:
